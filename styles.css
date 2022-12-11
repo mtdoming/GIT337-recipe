@@ -1,0 +1,525 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(122,191,191,.5);
+}
+
+h1, h2, h3, nav a, nav span, menu li, #social li, footer {
+    font-family: 'Bebas Neue', regular;
+}
+
+h1 {
+    font-family: 'Bebas Neue', regular;
+    color: #0D0D0D;
+}
+
+menu {
+    display: block;
+    height: 493px;
+}
+
+menu h2 {
+    color: #EB5428;
+}
+
+.wrapper {
+    width: 1280px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+
+.logo {
+    background-color: #EB5428;
+    width: 70px;
+    padding: 15px;
+    position: relative;
+    top: -50px;
+}
+
+.street-tacos menu {
+    padding: 40px;
+    float: left;
+    vertical-align: top;
+    text-align: center;
+    border: 1px solid #EB5428;
+}
+
+menu li {
+    list-style: none;
+    margin-top: 30px;
+    position: relative;
+    top: -50px;
+}
+
+
+.street-tacos-title {
+    text-align: center;
+}
+
+.street-tacos-img {
+    width: 30%;
+    display: inline-block;
+}
+
+.street-tacos-description {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 30px;
+    line-height: 2em;
+    font-family: "Montserrat";
+}
+
+.street-tacos-description p:nth-child(1) {
+    margin-top: -10px;
+}
+
+.street-tacos-description p:nth-child(2) {
+    margin-top: 80px;
+}
+
+.clear {
+    clear: both;
+}
+
+header {
+    border-bottom: 1px solid #EB5428;
+    height: 93px;
+}
+
+
+.header_icon img {
+    width: 48px;
+}
+
+.header_icon {
+    padding: 30px;
+    position: relative;
+    top: -30px;
+    display: inline-block;
+}
+
+.header_icon span {
+    font-family: 'Bebas Neue', regular;
+    color: #EB5428;
+    font-size: 14pt;
+    text-align: center;
+    width: 48px;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    top: -25px;
+}
+
+.header_icons {
+    display: inline-block;
+    position: relative;
+    height: 0px;
+    top: 10px;
+}
+
+.details {
+    width: 1280px;
+    text-align: center;
+    background-color: #000;
+    color: #7ABFBF;
+    position: relative;
+    top: -10px;
+}
+
+.details .details_title {
+    text-align: center;
+    font-size: 20pt;
+    padding-top: 30px;
+}
+
+.details dl dd {
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.details dl dt {
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.details dl div {
+    display: inline-block;
+    padding: 30px;
+}
+
+#info {
+    padding: 30px;
+}
+
+#info .ingredients {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    padding: 10px;
+    font-family: "Montserrat";
+    line-height: 2em;
+}
+
+#info .ingredients h3 {
+    font-size: 30px;
+}
+
+.ingredients ul li {
+    list-style: square;
+}
+
+.ingredients ul {
+    margin-top: 10px;
+}
+
+#info .directions h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#info .directions {
+    width: 70%;
+    display: inline-block;
+    font-family: "Montserrat";
+    line-height: 2em;
+    margin-top: 10px;
+}
+
+#info .directions ol li {
+    margin-top: 20px;
+}
+
+.side_dishes {
+    width: 100%;
+    text-align: center;
+    background: #7ABFBF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.side_dishes_title {
+    font-size: 22pt;
+}
+
+.side_dish {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+    font-family: "Montserrat";
+    padding: 30px;
+}
+
+.side_dish .side {
+    margin-top: 10px;
+    font-size: 18pt;
+}
+
+.side_dish dl {
+    margin-top: 20px;
+}
+
+.side_dish dl dt {
+    margin-top: 15px;
+    font-weight: 800;
+}
+
+.socials {
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.taco-cheesington {
+    padding: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.taco-cheesington img {
+    width: 150px;
+}
+
+.socials {
+    display: inline-block;
+    float: right;
+    margin-right: 100px;
+}
+
+.socials .social {
+    display: inline-block;
+    padding: 30px;
+    text-align: center;
+}
+
+.social_name {
+    font-family: "Bebas Neue", regular;
+    color: #EB5428;
+}
+
+.signin {
+    font-family: "Bebas Neue";
+    float: right;
+    padding: 40px;
+    margin-top: -20px;
+}
+
+.signin span {
+    font-size: 13pt;
+}
+
+
+.hamburger-icon {
+    display: none;
+}
+
+
+/* Form */
+
+/* Style the search field */
+form.form input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 20%;
+  background: #f1f1f1;
+  margin-left: 31%;
+}
+
+/* Style the submit button */
+form.form button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #EB5428;
+  color: white;
+  font-size: 13px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.form button:hover {
+  background: #EB5428;
+}
+
+.form_container {
+    position: relative;
+}
+
+form.form svg {
+    width: 17px;
+    height: 17px;
+}
+
+/* Clear floats */
+form.form::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media (max-width: 800px) {
+
+    .header_icons {
+        margin-top: 25px;
+    }
+    .header_icon {
+        padding: 20px;
+    }
+    .wrapper {
+        width: 768px;
+    }
+    menu {
+        position: absolute;
+        height: 60px !important;
+        width: 688px;
+        background: rgba(255,255,255,0.7);
+        display: flex;
+        border: none !important;
+        justify-content: space-between;
+    }
+    .street-tacos-img {
+        width: 100%;
+    }
+    menu li {
+        /* padding: 30px; */
+        display: inline-block;
+    }
+
+    .logo {
+        top: 0px;
+    }
+    header {
+        border: none;
+    }
+    .details {
+        width: 768px;
+        background: none;
+        color: #000;
+    }
+    .details dl {
+        margin-top: 20px;
+    }
+    .details dl div {
+        padding: 10px;
+        display: block;
+    }
+    .details dl dd, .details dl dt {
+        display: inline-block;
+    }
+
+    .signin {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .form_container {
+        position: absolute;
+        top: 30px;
+        left: -80px;
+        width: 900px;
+        display: block;
+    }
+
+    header {
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+        padding-bottom: 150px;
+    }
+
+}
+
+@media (max-width: 558px) {
+    .wrapper {
+        width: 414px;
+    }
+
+    header {
+        padding-bottom: 0px;
+    }
+
+    .header_icons {
+        display: none;
+    }
+
+    .hamburger-icon {
+        display: inline-block;
+        width: 83px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 200px;
+        text-align: center;
+    }
+
+    .street-tacos {
+        padding-top: 80px;
+    }
+
+    .form_container {
+        position: absolute;
+        left: -150px;
+        top: 120px;
+    }
+    .signin {
+        position: absolute;
+        top: -10px;
+        right: 60px;
+    }
+    .street-tacos-description {
+        width: 350px;
+    }
+    menu {
+        position: relative;
+        height: 60px !important;
+        width: 314px;
+        /* background: rgba(255,255,255,0.7); */
+        display: flex;
+        /* border: none !important; */
+        justify-content: space-between;
+        /* padding: 0px !important; */
+    }
+    .details {
+        width: 400px;
+    }
+
+    #info .directions {
+        display: block;
+        width: 100%;
+    }
+
+    #info .ingredients {
+        display: block;
+        width: 100%;
+    }
+
+    .socials {
+        padding: 0px;
+        width: 414px;
+        float: none;
+        text-align: center;
+    }
+
+    .socials .social {
+        padding: 20px;
+    }
+
+    .taco-cheesington {
+        width: 360px;
+        text-align: center;
+    }
+}
+
+@media print {
+    header {
+        display: none;
+    }
+    .wrapper {
+        width: 100%;
+        margin-top: -100px;
+    }
+    img {
+        display: none !important;
+    }
+    menu {
+        display: none !important;
+    }
+    .form_container {
+        display: none;
+    }
+    .street-tacos-title {
+        text-align: left;
+        margin-left: 25px;
+    }
+    .details {
+        float: left;
+    }
+
+    .ingredients {
+        position: relative;
+        top: -20px;
+    }
+
+    * {
+        line-height: 1.3em;
+        font-family: serif !important;
+    }
+
+    .street-tacos-description p:nth-child(2) {
+        margin-top: 0px;
+    }
+
+    .taco-cheesington {
+        display: none;
+    }
+
+}
